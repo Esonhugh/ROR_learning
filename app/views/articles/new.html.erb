@@ -4,8 +4,12 @@
   <div>
     <%= form.label :title %>
     <%= form.text_field :title %>
+    <br/>
     <%= form.label :body %>
     <%= form.text_area :body %>
+    <br/>
     <%= form.submit %>
   </div>
 <% end %>
+
+<%= link_to "back", root_path %>
