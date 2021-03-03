@@ -1,24 +1,24 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## this is the project for Eson learning MVC web framework with rails
+
+generate by rails 6.1
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version : 2.7
 
-* System dependencies
+* System dependencies : rails 6.1
 
-* Configuration
+* Configuration : in config dir
 
-* Database creation
+* Database creation : sqlite 3
 
 * Database initialization
 
-* How to run the test suite
+* How to run the test suite : bin/rails server
 
 * Services (job queues, cache servers, search engines, etc.)
 
 * Deployment instructions
 
-* ...
