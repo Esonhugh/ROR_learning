@@ -4,7 +4,8 @@
   <% @articles.each do |article| %>
     <li>
       <%= link_to article.title, article %>
-      <iframe srcdoc="<p><%= article.body.html_safe %></p>"></iframe>
+      <iframe srcdoc="<p><%= article.body.html_safe %></p>">
+      </iframe>
     </li>
   <% end %>
 </ul>

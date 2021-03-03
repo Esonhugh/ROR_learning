@@ -17,4 +17,9 @@ class ArticlesController < ApplicationController
       render :new
     end
   end
+  def destroy
+    @articles = Article.find(params[:id])
+    @articles.destroy
+    redirect_to root_path
+  end
 end
